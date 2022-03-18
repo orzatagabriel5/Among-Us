@@ -1,0 +1,61 @@
+Task 1
+	Am alocat o matrice si o copie unde am pus valorile initiale
+	ale matricei care trebuie rotita.
+	Apoi in matrice am pus valorile din copie astfel incat sa 
+	rotesc matricea.
+	Pentru a scrie matricea intr-un sir de caractere
+	am luat fiecare cifra din numerele din matrice
+	si le-am introdus pe rand in vectorul de caractere v.
+	Cand ajung la finalul unei linii adaug /n la vector,
+	iar daca nu adaug un spatiu, dar mai putin atunci cand
+	ajung la finalul "matricei", unde pun terminatorul de sir.
+	In cifre[] pun fiecare cifra pe care o are fiecare numar
+	din matrice si folosesc count ca sa retin cate cifre are
+	numarul respectiv.
+Task 2
+	Am folosit functia strtok ca sa citesc numai
+	numerele intregi din sirul de caractere si
+	in acelasi timp le-am adunat in variabila sum,
+	pe care am transformat-o intr-un sirul de caractere
+	s cu funtia sprintf.
+Task 3
+	In functie de valoarea primului element din vector
+	programul va intra pe o anumita ramura a primului if.
+	Daca primul element este par, interschimb valorile 
+	doua cate doua incepand de la pozitia 1, ca apoi sa 
+	shift-ez tot vectorul la stanga(peste primul element).
+	Ca sa scriu toate elementele din vector intr-un sir
+	de caractere am ales sa folosesc un vector de caractere
+	in care pun fiecare cifra din fiecare numar din vectorul
+	v, urmat (numarul) de un spatiu si la final de termiatorul
+	de sir.
+	Am folosit vectorul cifre ca sa stochez fiecare cifra a 
+	numerelor din v si variabila count ca sa retin cate cifre
+	au acestea.
+Task 4
+	Am alocat fiecare element din structurile Player si Game
+	care au fost cerute in enunt.
+Task 5
+	Am citit cu fscanf fiecare linie si am pus valoarea aferenta
+	in structura, am alocat player->locations si cu strtok am luat
+	fiecare pereche de coordonate si am pus-o in structura.
+	In functie de de rolul jucatorului pun la playerRole
+	valoarea unui enum.
+	La ReadGame am alocate fiecare crewmate cu allocPlayer si
+	dupa apelez ReadPlayer pentru fiecare.
+Task 6
+	Am scris in fisier cum trebuie.
+Task 7
+	Am calculat distanta Manhattan de la impostor la toti
+	jucatorii vii din joc si am retinut-o pe cea mai mica 
+	impreuna cu index-ul jucatorului care urmeaza sa moara.
+	Daca min nu este modificat inseamna ca jucatorul nu
+	a omorat pe nimeni si daca isi modifica valoarea jucatorul
+	cu indexul aferent moare.
+Task 8
+	Pentru fiecare jucator citesc locatia la care se afla si o pun
+	in output, apoi apelez functia Abilities cu index-ul corespunzator
+	enum-ului pe care il are rolul jucatorului.
+	Atunci cand indexOfLocation devine egal cu numarul de locatii al
+	jucatorului - 1(adica jucatorul se afla la ultima locatie)
+	il fac 0, iar daca nu trec la urmatoarea locatie.
